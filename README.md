@@ -1,4 +1,4 @@
-# Jane Vision API
+# Jeeves Vision API
 
 A local, CPU‑first vision API server that combines **Florence-2** (image captioning + object detection) with **EasyOCR** (text extraction) behind an OpenAI‑compatible endpoint.
 
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 # Run (downloads models on first launch — ~770MB Florence-2 + ~500MB EasyOCR)
 python server.py --port 8010
 
-# Or as a systemd service (see systemd/jane-vision.service)
+# Or as a systemd service (see systemd/jeeves-vision.service)
 ```
 
 ## API Usage
